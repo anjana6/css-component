@@ -3,3 +3,93 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
+
+.profile-card{
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 8rem;
+    position: relative;
+}
+
+.avatar{
+    border-radius: 50%;
+    background-color: red;
+    overflow: hidden;
+    height: 5rem;
+    position: absolute;
+    /* bottom: 0; */
+    top: 80px;
+    border: 2px solid blue;
+}
+
+img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.footer > div{
+    margin: 0.3rem 0;
+}
+
+/* .name{
+    text-align: center;
+}
+
+.profesion{
+    text-align: center;
+} */
+
+.socila-media{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 10rem;
+}
+
+.social-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 15rem;
+}
+
+.count{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 15rem;
+}
+
+.count span{
+    border-right: 1px sold black;
+}
+
+.social-button button{
+    border-radius: 30px;
+    background-color: #0000ff;
+    padding: 0.3rem;
+    color: white;
+    width: 5rem;
+    outline: none;
+    border: none;
+}
