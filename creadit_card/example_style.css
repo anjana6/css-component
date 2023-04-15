@@ -39,7 +39,8 @@ section::after{
     width: 375px;
     height: 250px;
     z-index: 100;
-    transition: 0.6;
+    transition: 0.6s;
+    transform-style: preserve-3d;
 }
 
 .container:hover{
